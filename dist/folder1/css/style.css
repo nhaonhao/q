@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+.service{
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+}
+.service_title{
+	font-size: 2rem;
+	letter-spacing: 2px;
+	font-weight: 400;
+	position: absolute;
+	left: 7rem;
+	top: 10%;
+	
+}
+.service_images{
+	position: absolute;
+	top: 30%;
+	left: 7rem;
+	z-index: 100;
+}
+.service_images img{
+	width: 700px;
+	height: 400px;
+}
+.service_circle{
+	width: 150px;
+	height: 150px;
+	background: #000;
+	border-radius: 50%;
+	position: relative;
+	top: 40%;
+	left: 70%;
+}
+.service_circle h4{
+	position: absolute;
+	left: 28%;
+	top: 20%;
+	color: var( --white-color );
+	text-align: center;
+	font-size: 3rem;
+	font-weight: 400;
+}
+.service_nav{
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	top: 100%;
+	display: flex;
+	flex-direction: column;
+	left: 2rem;
+}
+.service_list{
+	border: 1px solid #000;
+	height: 10rem;
+	text-align: center;
+	width: 50%;
+	font-size: 4rem;
+	border-radius: 50%;
+}
+.service_row{
+	display: flex;
+	justify-content:space-around;
+	margin-top: 5rem;
+/*	margin-left: 5rem;*/
+	width: 50%;
+	
+}
+.box-1{
+	font-size: 3rem;
+	font-weight: 400;
+	font-family: 'Kaisei Tokumin', serif;
+	border: 1px solid #000;
+	padding: 4rem 4rem;
+	border-radius: 50%;
+	margin-left: -10rem;
+}
+.form_email{
+	position: absolute;
+	top: 50%;
+	width: 40%;
+	background: #fff;
+	height: 100px;
+	box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+	border-radius: 10px;
+	right: 8rem;
+}
+.Email{
+	font-size: 2rem;
+	font-family: 'Kaisei Tokumin', serif;
+	margin-left: 5rem;
+	line-height: 9rem;
+}
+.form{
+	width: 400px;
+	height: 35px;
+	margin-top: 2rem;
+	border-radius: 10px;
+	background: transparent;
+	outline: none;
+	margin-left: 9px;
+}
+.button{
+	width: 100px;
+	height: 4rem;
+	position: absolute;
+	right: 5rem;
+	color: black;
+	font-size: 3rem;
+	font-weight: 200;
+	margin-top: 5.5%;
+	right: 2%;
+	background: transparent;
+	border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
